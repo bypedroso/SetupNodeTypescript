@@ -1,10 +1,9 @@
-import express, { response, request } from 'express';
+import express, { response, request } from 'express'
 
-const app =  express();
+const app = express()
 
 app.get('/', (request, response) => {
-    return response.json({message:"hello World"});
-});
+  return response.json({ message: 'hello World' })
+})
 
-
-app.listen(3333);
+app.listen(3333)
